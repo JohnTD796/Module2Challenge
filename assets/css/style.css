@@ -10,87 +10,139 @@ h1{
 }
 
 h2{
-    font-size: 150%;
-    background-color: orange;
+    font-size: 300%;
+    background-color: white;
 }
 
 h3{
     font-size: 150%;
-    display: flex;
-    justify-content: left;
     background-color: pink;
+}
 
+h4{
+    display: flex;
+    justify-content: end;
+    font-size: 150%;
+    color: white;
+    margin-top: -24px;
+    background-color: orange;
+}
+
+p{ 
+    font-size:medium;
+    padding: 10px;
+    margin-left: 10px;
+    min-width: 740px;
 }
 
 body {
     display:flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     background-color: purple;
 }
 header {
     display:flex;
+    flex: 0 5 0;
+    flex-flow: row wrap;
     justify-content:space-between;
     background-color: red;
 }
-.pageTitle {
-}
+
 
 .navigation {
     display: flex;
-    justify-content:space-between;
-    flex-flow: row wrap;
+    justify-content: space-between;
     font-size: 125%;
     background-color: blue;
+    padding: 10px;
 }
 
+#nav-section{
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    
+}
 .landing-card img {
     display: flex;
-    justify-content: space-around;
-    height: 10%;
-    width: 75%;
-    
-
-   
+    height: 400px;
+    width: 100%;
+    overflow-x: hidden;  
 }
+
+.abt-wrk-card{
+    margin-left: 20%;
+    /* moves all body content right */
+}
+
 .about-card {
     display: flex;
-    justify-content: left;
     flex-flow: row wrap;
 }
 .about-card p {
+    display: flex;
+    justify-content: center;
     width: 75%;
     background-color: yellow ;
 }
 
-#cardTitle {
+.work-card {
     display: flex;
+    flex: 0 2 0;
     justify-content: left;
+    flex-flow: row wrap;
 }
 
-.work-card {
-    /* display: flex;
-    flex-flow: row wrap;
-    justify-content: left; */
+#aboutme-head{
+    flex: 0 1 0;
+    display: flex;
+    text-align: right;
+    margin-left: -132.35px;
+    margin-bottom: 20px;
 }
+
+#work-head{
+    flex: 0 1 0;
+    display: flex;
+    text-align: right;
+    margin-left: -115px
+}
+
+#card-title {
+    display: inline-block;
+    text-align: center;
+}
+
 .block-card {
     display: flex;
-    justify-content:space-between;
+    justify-content:left;
     flex-flow:column wrap;
+    text-align: center;
+    margin: 10px;
+    background-color: darkblue;
 }
+
+.block-card img{
+    width: 740px;
+    min-width: 500px;
+    height: 200px;
+}
+
 .card{
-    flex: auto;
-    padding: 10px;
-    text-align: right;
-    border-style:hidden;
-    border-width: 1px;
-    /* display: flex;
-    justify-content:center;
-    flex-flow: row wrap; */
+    flex: 0 0 0;
+    justify-content: center;
+    flex-flow: row wrap;
+    text-align: center;
+    margin: 10px;
+    border-style: solid;
+    border-width: 5px;
+    background-color:aqua
 }
 .card img{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    width: 300px;
+    width: 350px;
     height: 150px;
     background-color: brown;
 }
@@ -98,13 +150,29 @@ header {
 
 .contactMe{
     display: flex;
+    justify-content: space-around;
     align-items: end;
 }
+
+#contact-head{
+    flex: 0 1 0;
+    display: flex;
+    justify-content: left;
+    text-align: right;
+    margin-left: -215px;
+}
+
 .contacts{
+    display: flex;
+    justify-content: right;
+    
+    font-size: 150%;
     background-color: white;
 }
 
 footer{
+    flex: 0 1 0;
     display: flex;
+    justify-content: center;
     align-items: end;
 }
