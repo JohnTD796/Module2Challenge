@@ -86,9 +86,9 @@ header {
     background-color: yellow ;
 }
 
-.work-card {
+.work-card, .work-card div{
     display: flex;
-    flex: 0 0 20%;
+    flex: 0 0 75%;
     justify-content: left;
     flex-flow: row wrap;
 }
@@ -105,7 +105,6 @@ header {
 }
 
 #work-head{
-    flex: 0 0 20%;
     display: flex;
     text-align: right;
     margin-left: -115px
@@ -117,7 +116,7 @@ header {
 }
 
 .block-card {
-    display: flex;
+    width: 100%;
     justify-content:left;
     flex-flow:column wrap;
     text-align: center;
@@ -127,8 +126,8 @@ header {
 
 .block-card img{
     flex: 0 0 100%;
-    width: 740px;
-    min-width: 500px;
+    width: 100%; 
+    min-width: 350px;
     height: 200px;
 }
 
@@ -150,25 +149,29 @@ header {
     background-color: brown;
 }
 
-
 .contactMe{
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.contactMe div{
+    display: flex;
+    flex: 0 0 20%;
     align-items: end;
 }
 
 #contact-head{
-    flex: 0 1 0;
-    display: flex;
+    flex: 0 1 10%;
     justify-content: left;
     text-align: right;
-    margin-left: -215px;
+    margin-left: -150px;
 }
 
 .contacts{
     display: flex;
-    justify-content: right;
-    
+    justify-content: center;
+    padding: 10px;
     font-size: 150%;
     background-color: white;
 }
@@ -178,4 +181,10 @@ footer{
     display: flex;
     justify-content: center;
     align-items: end;
+}
+
+@media screen and (max-width:992px){
+        .card {
+            width: 50%;
+        }
 }
