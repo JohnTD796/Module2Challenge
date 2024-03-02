@@ -88,9 +88,12 @@ header {
 
 .work-card {
     display: flex;
-    flex: 0 2 0;
+    flex: 0 0 20%;
     justify-content: left;
     flex-flow: row wrap;
+}
+.work-card > article {
+    flex: 0 0 70%;
 }
 
 #aboutme-head{
@@ -102,7 +105,7 @@ header {
 }
 
 #work-head{
-    flex: 0 1 0;
+    flex: 0 0 20%;
     display: flex;
     text-align: right;
     margin-left: -115px
@@ -123,13 +126,13 @@ header {
 }
 
 .block-card img{
+    flex: 0 0 100%;
     width: 740px;
     min-width: 500px;
     height: 200px;
 }
 
 .card{
-    flex: 0 0 0;
     justify-content: center;
     flex-flow: row wrap;
     text-align: center;
