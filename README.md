@@ -8,10 +8,19 @@ It also helped me understand what and when to focus on something. Instead of wor
 In conclusion, I had a lot of fun with this project and am looking forward to refining my skills!
 
 ---Reset-CSS----------------------------------------------------------------- 
+
 ---Source: CWRU-VIRT-FSF-PT-02-2024-U-LOLC/ 02-Advanced-CSS/ 01-Activities/ 12-Stu_CSS-Resets/ Solved/ assets/ css/ reset.css---
 
 I took the reset.css sheet from the "solved" folder in the class activity: 12-Stu_CSS-Resets.
-I asked my instructor if this was acceptable and was told that as long as I cite the source and added comments to show that I understand what the reset.css document does, then I should be okay.------------------------------------------------------------------------------
+I asked my instructor if this was acceptable and was told that as long as I cite the source and added comments to show that I understand what the reset.css document does, then I should be okay.
+
+------------------------------------------------------------------------------
+
+link to deployed application: https://johntd796.github.io/Module2Challenge/#contact-head
+<img src="./assets/images/challenge 2 screenshot.PNG"/>
+<img src="./assets/images/challenge 2 2of2.PNG"/>
+
+------------------------------------------------------------------------------
 
 MIT License
 
